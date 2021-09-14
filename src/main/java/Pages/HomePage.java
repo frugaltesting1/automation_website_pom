@@ -65,7 +65,20 @@ public class HomePage {
     private By googleEarth = By.xpath("//body/section[7]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/a[1]/img[1]");
     private By stripe = By.xpath("//body/section[7]/div[1]/div[3]/div[3]/div[1]/div[1]/div[2]/a[1]/img[1]");
 
+    private By joinUs2 = By.xpath("//button[contains(text(),'Join us!')]");
+    private By congratulations = By.xpath("//a[@id='nav-gift-tab-1']");
+    private By birthday = By.xpath("//a[@id='nav-gift-tab-2']");
+    private By general = By.xpath("//a[@id='nav-gift-tab-3']");
+    private By thankyou = By.xpath("//a[@id='nav-gift-tab-4']");
+    private By anniversary = By.xpath("//a[@id='nav-gift-tab-5']");
+    private By findOutHow = By.xpath("//body/section[@id='indexGift']/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/section[1]/div[1]/div[2]/button[1]");
 
+    //private By facebook = By.xpath("//i[contains(@href,'facebook')]");
+
+    private By facebook = By.xpath("//i[contains(@href,'facebook')]");
+    private By linkedin = By.xpath("//i[contains(@class,'instagram')]");
+    private By instagram = By.xpath("//i[contains(@class,'linkedin')]");
+    private By youtube = By.xpath("//i[contains(@class,'youtube')]");
 
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
@@ -222,17 +235,44 @@ public class HomePage {
     public String getClusterAmountInUSD(){
         return driver.findElement(amountInUSD).getText();
     }
-    public String getClusterAmountInGBP(){
+    public String getClusterAmountInEURO(){
         return driver.findElement(amountInEURO).getText();
     }
     public void clickOnSignUpNow(){
         driver.findElement(signUpNow).click();
     }
+    public void clickOnCongratulations(){
+        driver.findElement(congratulations).click();
+    }
+    public void clickOnBirthday(){
+        driver.findElement(birthday).click();
+    }
+    public void clickOnGeneral(){
+        driver.findElement(general).click();
+    }
+    public void clickOnThankYou(){
+        driver.findElement(thankyou).click();
+    }
+    public void clickOnAnniversary(){
+        driver.findElement(anniversary).click();
+    }public void clickOnFindOUtHow(){
+        driver.findElement(findOutHow).click();
+    }
+    public void clickOnFacebook() {
+        driver.findElement(facebook).click();
+    }
 
+    public void clickOnInstagram() {
+        driver.findElement(instagram).click();
+    }
 
+    public void clickOnLinkedin() {
+        driver.findElement(linkedin).click();
+    }
 
-
-
+    public void clickOnYoutube() {
+        driver.findElement(youtube).click();
+    }
 
 
 
