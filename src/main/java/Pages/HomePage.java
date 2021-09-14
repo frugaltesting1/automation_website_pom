@@ -76,8 +76,8 @@ public class HomePage {
     //private By facebook = By.xpath("//i[contains(@href,'facebook')]");
 
     private By facebook = By.xpath("//i[contains(@href,'facebook')]");
-    private By linkedin = By.xpath("//i[contains(@class,'instagram')]");
-    private By instagram = By.xpath("//i[contains(@class,'linkedin')]");
+    private By linkedin = By.xpath("//i[contains(@class,'linkedin')]");
+    private By instagram = By.xpath("//i[contains(@class,'instagram')]");
     private By youtube = By.xpath("//i[contains(@class,'youtube')]");
 
     public String getCurrentUrl() {
