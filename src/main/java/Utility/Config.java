@@ -28,7 +28,7 @@ public class Config {
 		}
 
 		assert jsonObject != null;
-		baseUrl = (String)jsonObject.get("UAT");
+		baseUrl = (String)jsonObject.get("WEBSITE");
 
 		return baseUrl;
 	}
