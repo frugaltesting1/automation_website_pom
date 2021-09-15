@@ -168,8 +168,8 @@ public class Home extends BaseTest{
     @Test(description="Test:Click On Feedback, verifying if it is opening feedback PopUp")
     public void verifyIfFeedbackToolIsOpening() {
         homePage.clickOnFeedbackButton();
+        driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
         Boolean feedbackCloseIcon = homePage.feedbackCloseButtonIsDisplayed();
-
         if(!feedbackCloseIcon) {
             System.out.println("Fail : Feedback Tool is not opening");
             Assert.fail();
@@ -177,6 +177,66 @@ public class Home extends BaseTest{
         homePage.clickOnFeedbackClose();
         homePage.closeTab();
 
+    }
+
+    @Test(description="Test:Click On HowItWorks Button")
+    public void verifyIfHowItWorksIsWorking() {
+        homePage.clickOnHowItWorks();
+        String url = homePage.getCurrentUrl();
+        if(!url.endsWith("#partnerfive")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Become A Guardian Button")
+    public void verifyIfBecomeGuardianWorking() {
+        homePage.clickOnBecomeGuardian();
+        String url = homePage.getCurrentUrl();
+        if(!url.endsWith("#homeTwo")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Learn More Button")
+    public void verifyIfLearnMoreWorking() {
+        homePage.clickOnLearnMore();
+        String url = homePage.getNextTabUrl();
+        if(!url.endsWith("/deeproots")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Google Earth Button")
+    public void verifyIfGoogleEarthButtonWorking() {
+        homePage.clickOnGoogleEarth();
+        String url = homePage.getNextTabUrl();
+        if(!url.contains("https://earth.google.com/web/")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Stripe Button")
+    public void verifyIfStripeButtonWorking() {
+        homePage.clickOnStripe();
+        String url = homePage.getNextTabUrl();
+        if(!url.contains("https://stripe.com/en-in")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Join Us Button")
+    public void verifyIfJoinUsButtonWorking() {
+        homePage.clickOnJoinUs2();
+        String url = homePage.getNextTabUrl();
+        if(!url.endsWith("")){
+            Assert.fail();
+        }
+        homePage.closeTab();
     }
 
 

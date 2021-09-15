@@ -107,10 +107,6 @@ public class HomePage {
     public boolean feedbackCloseButtonIsDisplayed() {
         return driver.findElement(feedbackClose).isDisplayed();
     }
-    /*public SquadPage clickOnFindOutHowButton() {
-        driver.findElement(findOutHowButton).click();
-        return new SquadPage(driver);
-    }*/
 
     public GiftingPage clickOnGiftingPage(){
         driver.findElement(gifting).click();
@@ -210,6 +206,8 @@ public class HomePage {
     public void clickOnFeedbackButton(){
         driver.findElement(feedback).click();
     }
+    public void clickOnGoogleEarth(){driver.findElement(googleEarth).click();};
+    public void clickOnStripe(){driver.findElement(stripe).click();};
     public void clickOnFeedbackClose(){
         driver.findElement(feedbackClose).click();
     }
@@ -240,6 +238,7 @@ public class HomePage {
     public String getClusterAmountInEURO(){
         return driver.findElement(amountInEURO).getText();
     }
+    public void clickOnJoinUs2(){driver.findElement(joinUs2).click();}
     public void clickOnSignUpNow(){
         driver.findElement(signUpNow).click();
     }
