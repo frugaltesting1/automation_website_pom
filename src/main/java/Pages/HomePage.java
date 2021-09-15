@@ -206,8 +206,8 @@ public class HomePage {
     public void clickOnFeedbackButton(){
         driver.findElement(feedback).click();
     }
-    public void clickOnGoogleEarth(){driver.findElement(googleEarth).click();};
-    public void clickOnStripe(){driver.findElement(stripe).click();};
+    public void clickOnGoogleEarth(){driver.findElement(googleEarth).click();}
+    public void clickOnStripe(){driver.findElement(stripe).click();}
     public void clickOnFeedbackClose(){
         driver.findElement(feedbackClose).click();
     }
@@ -238,7 +238,7 @@ public class HomePage {
     public String getClusterAmountInEURO(){
         return driver.findElement(amountInEURO).getText();
     }
-    public void clickOnJoinUs2(){driver.findElement(joinUs2).click();}
+    public void clickOnJoinUs2() { driver.findElement(joinUs2).click(); }
     public void clickOnSignUpNow(){
         driver.findElement(signUpNow).click();
     }
@@ -256,25 +256,20 @@ public class HomePage {
     }
     public void clickOnAnniversary(){
         driver.findElement(anniversary).click();
-    }public void clickOnFindOUtHow(){
+    }
+    public void clickOnFindOUtHow(){
         driver.findElement(findOutHow).click();
     }
     public void clickOnFacebook() {
         driver.findElement(facebook).click();
     }
-
     public void clickOnInstagram() {
         driver.findElement(instagram).click();
     }
-
     public void clickOnLinkedin() {
         driver.findElement(linkedin).click();
     }
-
     public void clickOnYoutube() {
         driver.findElement(youtube).click();
     }
-
-
-
 }

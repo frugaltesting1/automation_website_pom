@@ -168,7 +168,7 @@ public class Home extends BaseTest{
     @Test(description="Test:Click On Feedback, verifying if it is opening feedback PopUp")
     public void verifyIfFeedbackToolIsOpening() {
         homePage.clickOnFeedbackButton();
-        driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         Boolean feedbackCloseIcon = homePage.feedbackCloseButtonIsDisplayed();
         if(!feedbackCloseIcon) {
             System.out.println("Fail : Feedback Tool is not opening");
@@ -232,8 +232,9 @@ public class Home extends BaseTest{
     @Test(description="Test:Click On Join Us Button")
     public void verifyIfJoinUsButtonWorking() {
         homePage.clickOnJoinUs2();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         String url = homePage.getNextTabUrl();
-        if(!url.endsWith("")){
+        if(!url.endsWith("/signup")){
             Assert.fail();
         }
         homePage.closeTab();
