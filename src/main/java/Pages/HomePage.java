@@ -104,6 +104,9 @@ public class HomePage {
         return driver.findElement(sacredGrovesIcon).isDisplayed();
     }
 
+    public boolean feedbackCloseButtonIsDisplayed() {
+        return driver.findElement(feedbackClose).isDisplayed();
+    }
     /*public SquadPage clickOnFindOutHowButton() {
         driver.findElement(findOutHowButton).click();
         return new SquadPage(driver);
@@ -111,8 +114,7 @@ public class HomePage {
 
     public GiftingPage clickOnGiftingPage(){
         driver.findElement(gifting).click();
-        //return new GiftingPage(driver);
-        return new GiftingPage();
+        return new GiftingPage(driver);
     }
 
     //to click on guardians dropdown
