@@ -39,12 +39,13 @@ public class Home extends BaseTest{
    @AfterMethod
     public void clearTests() throws InterruptedException {
        // AllureReport.Screenshot(driver,this.getClass().getName());
-        driver.quit();
+       driver.quit();
     }
 
     @Test(description = "Test:To check if sacred groves logo is visible or not")
     public void verifySacredGrovesLogoVisibility(){
         Boolean homeIcon = homePage.visibilityOfHomePage();
+        System.out.println(homeIcon);
         if(!homeIcon)
         {
             Assert.fail();
@@ -168,17 +169,77 @@ public class Home extends BaseTest{
     @Test(description="Test:Click On Feedback, verifying if it is opening feedback PopUp")
     public void verifyIfFeedbackToolIsOpening() {
         homePage.clickOnFeedbackButton();
-        Boolean feedbackCloseIcon = homePage.feedbackCloseButtonIsDisplayed();
-
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        /*Boolean feedbackCloseIcon = homePage.feedbackCloseButtonIsDisplayed();
         if(!feedbackCloseIcon) {
             System.out.println("Fail : Feedback Tool is not opening");
             Assert.fail();
-        }
+        }*/
         homePage.clickOnFeedbackClose();
         homePage.closeTab();
 
     }
 
+    @Test(description="Test:Click On HowItWorks Button")
+    public void verifyIfHowItWorksIsWorking() {
+        homePage.clickOnHowItWorks();
+        String url = homePage.getCurrentUrl();
+        if(!url.endsWith("#partnerfive")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Become A Guardian Button")
+    public void verifyIfBecomeGuardianWorking() {
+        homePage.clickOnBecomeGuardian();
+        String url = homePage.getCurrentUrl();
+        if(!url.endsWith("#homeTwo")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Learn More Button")
+    public void verifyIfLearnMoreWorking() {
+        homePage.clickOnLearnMore();
+        String url = homePage.getNextTabUrl();
+        if(!url.endsWith("/deeproots")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Google Earth Button")
+    public void verifyIfGoogleEarthButtonWorking() {
+        homePage.clickOnGoogleEarth();
+        String url = homePage.getNextTabUrl();
+        if(!url.contains("https://earth.google.com/web/")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Stripe Button")
+    public void verifyIfStripeButtonWorking() {
+        homePage.clickOnStripe();
+        String url = homePage.getNextTabUrl();
+        if(!url.contains("https://stripe.com/en-in")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
+
+    @Test(description="Test:Click On Join Us Button")
+    public void verifyIfJoinUsButtonWorking() {
+        //driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        homePage.clickOnJoinUs2();
+        String url = homePage.getNextTabUrl();
+        if(!url.endsWith("/signup")){
+            Assert.fail();
+        }
+        homePage.closeTab();
+    }
 
 
     @Test(description="Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.")
@@ -220,7 +281,5 @@ public class Home extends BaseTest{
         }
         homePage.closeTab();
     }
-
-
-
 }
+

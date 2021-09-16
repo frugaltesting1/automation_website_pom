@@ -1,9 +1,8 @@
 package Pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -45,7 +44,8 @@ public class HomePage {
     private By signUp = By.xpath("//button[contains(text(),'Sign Up')]");
 
     private By feedback = By.xpath("//body/div[7]/div[1]/div[1]/div[1]/div[1]/button[1]");
-    private By feedbackClose = By.xpath("//body/div[7]/div[1]/div[1]/div[1]/div[1]/button[1]/i[1]");
+    private By feedbackClose = By.xpath("//*[@id=\"_hj_feedback_container\"]/div/button/i");
+    //private By feedbackClose = By.xpath("//body/div[7]/div[1]/div[1]/div[1]/div[1]/button[1]/i[1]");
 
     private By howItWorks = By.xpath("//button[contains(text(),'How it works')]");
     private By becomeGuardian = By.xpath("//a[contains(text(),'Become a Guardian')]");
@@ -66,7 +66,8 @@ public class HomePage {
     private By stripe = By.xpath("//body/section[7]/div[1]/div[3]/div[3]/div[1]/div[1]/div[2]/a[1]/img[1]");
 
     private By joinUs2 = By.xpath("//button[contains(text(),'Join us!')]");
-    private By congratulations = By.xpath("//a[@id='nav-gift-tab-1']");
+    //private By congratulations = By.xpath("//a[@href='#gift-tab-1']");
+    private By congratulations = By.xpath("//*[@id='nav-gift-tab-1']");
     private By birthday = By.xpath("//a[@id='nav-gift-tab-2']");
     private By general = By.xpath("//a[@id='nav-gift-tab-3']");
     private By thankyou = By.xpath("//a[@id='nav-gift-tab-4']");
@@ -80,6 +81,15 @@ public class HomePage {
     private By instagram = By.xpath("//i[contains(@class,'instagram')]");
     private By youtube = By.xpath("//i[contains(@class,'youtube')]");
 
+    private By congratulationsCard1 = By.xpath("//*[contains(@id,'slick-slide00')]");
+    private By congratulationsCard2 = By.xpath("//*[contains(@id,'slick-slide01')]");
+    private By congratulationsCard3 = By.xpath("//*[contains(@id,'slick-slide02')]");
+
+    private By birthdayCard1 = By.xpath("//*[contains(@id,'slick-slide10')]");
+    private By birthdayCard2 = By.xpath("//*[contains(@id,'slick-slide11')]");
+    private By birthdayCard3 = By.xpath("//*[contains(@id,'slick-slide12')]");
+
+
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
@@ -88,6 +98,16 @@ public class HomePage {
         ArrayList<String> wins = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(wins.get(wins.size()-1));
         return driver.getCurrentUrl();
+    }
+
+    public boolean isElementPresent(By by) {
+        try {
+            driver.findElement(by);
+            return true;
+        }
+        catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
     }
 
     public void closeTab(){
@@ -107,10 +127,6 @@ public class HomePage {
     public boolean feedbackCloseButtonIsDisplayed() {
         return driver.findElement(feedbackClose).isDisplayed();
     }
-    /*public SquadPage clickOnFindOutHowButton() {
-        driver.findElement(findOutHowButton).click();
-        return new SquadPage(driver);
-    }*/
 
     public GiftingPage clickOnGiftingPage(){
         driver.findElement(gifting).click();
@@ -208,11 +224,13 @@ public class HomePage {
         driver.findElement(blogs).click();
     }
     public void clickOnFeedbackButton(){
-        driver.findElement(feedback).click();
+        WebElement element = (new WebDriverWait(driver, 5))
+                .until(ExpectedConditions.elementToBeClickable(feedback));
+        element.click();
     }
-    public void clickOnFeedbackClose(){
-        driver.findElement(feedbackClose).click();
-    }
+    public void clickOnGoogleEarth(){driver.findElement(googleEarth).click();}
+    public void clickOnStripe(){driver.findElement(stripe).click();}
+    public void clickOnFeedbackClose(){ driver.findElement(feedbackClose).click();}
     public void clickOnHowItWorks(){
         driver.findElement(howItWorks).click();
     }
@@ -240,14 +258,9 @@ public class HomePage {
     public String getClusterAmountInEURO(){
         return driver.findElement(amountInEURO).getText();
     }
+    public void clickOnJoinUs2() { driver.findElement(joinUs2).sendKeys(Keys.ENTER); }
     public void clickOnSignUpNow(){
         driver.findElement(signUpNow).click();
-    }
-    public void clickOnCongratulations(){
-        driver.findElement(congratulations).click();
-    }
-    public void clickOnBirthday(){
-        driver.findElement(birthday).click();
     }
     public void clickOnGeneral(){
         driver.findElement(general).click();
@@ -257,25 +270,49 @@ public class HomePage {
     }
     public void clickOnAnniversary(){
         driver.findElement(anniversary).click();
-    }public void clickOnFindOUtHow(){
+    }
+    public void clickOnFindOUtHow(){
         driver.findElement(findOutHow).click();
     }
     public void clickOnFacebook() {
         driver.findElement(facebook).click();
     }
-
     public void clickOnInstagram() {
         driver.findElement(instagram).click();
     }
-
     public void clickOnLinkedin() {
         driver.findElement(linkedin).click();
     }
-
     public void clickOnYoutube() {
         driver.findElement(youtube).click();
     }
 
+
+    public void clickOnCongratulations(){
+        driver.findElement(congratulations).click();
+    }
+    public boolean congratulationsCard1IsDisplayed(){
+        return isElementPresent(congratulationsCard1);
+    }
+    public boolean congratulationsCard2IsDisplayed(){
+        return isElementPresent(congratulationsCard2);
+    }
+    public boolean congratulationsCard3IsDisplayed(){
+        return isElementPresent(congratulationsCard3);
+    }
+
+    public void clickOnBirthday(){
+        driver.findElement(birthday).click();
+    }
+    public boolean birthdayCard1IsDisplayed(){
+        return isElementPresent(birthdayCard1);
+    }
+    public boolean birthdayCard2IsDisplayed(){
+        return isElementPresent(birthdayCard2);
+    }
+    public boolean birthdayCard3IsDisplayed(){
+        return isElementPresent(birthdayCard3);
+    }
 
 
 }
