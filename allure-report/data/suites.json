@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "automation_website_pom",
+      "children" : [ {
+        "name" : "Tests.DemoTest",
+        "children" : [ {
+          "name" : "demoTest1",
+          "uid" : "d9682610a32b010a",
+          "parentUid" : "db3e228ca18ce76eb93cd8a620e53a69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632810908056,
+            "stop" : 1632810908126,
+            "duration" : 70
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "demoTest2",
+          "uid" : "21d0b25a29c0138e",
+          "parentUid" : "db3e228ca18ce76eb93cd8a620e53a69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1632810908203,
+            "stop" : 1632810908232,
+            "duration" : 29
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "db3e228ca18ce76eb93cd8a620e53a69"
+      } ],
+      "uid" : "2caa32a0e2dab9374254965990c60be5"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}
