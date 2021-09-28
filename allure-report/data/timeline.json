@@ -4,10 +4,131 @@
   "children" : [ {
     "name" : "DESKTOP-KHAJIPG",
     "children" : [ {
+      "name" : "1036@DESKTOP-KHAJIPG.main(1)",
+      "children" : [ {
+        "name" : "Birthday button working and all cards displayed or not",
+        "uid" : "e64c55b74d915672",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1632818268683,
+          "stop" : 1632818268722,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setupTests",
+        "uid" : "48e0a0c164543cf3",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632818268521,
+          "stop" : 1632818268522,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest2",
+        "uid" : "746579ce77fbe992",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632818223624,
+          "stop" : 1632818223629,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Congratulations button working and all cards displayed or not",
+        "uid" : "cb507250d4103221",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1632818268540,
+          "stop" : 1632818268549,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Congratulations button working and all cards displayed or not",
+        "uid" : "c77828b86798d428",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632818240047,
+          "stop" : 1632818240576,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest1",
+        "uid" : "cb30125a543aae2b",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632818223435,
+          "stop" : 1632818223553,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Congratulations button working and all cards displayed or not",
+        "uid" : "833cae33e076c677",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632818253244,
+          "stop" : 1632818253822,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Birthday button working and all cards displayed or not",
+        "uid" : "91c428e9fbd9fe00",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1632818268823,
+          "stop" : 1632818268855,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Birthday button working and all cards displayed or not",
+        "uid" : "a0b1ebdb39757b",
+        "parentUid" : "3006914593f98edffce914c2f9f4026a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1632818268923,
+          "stop" : 1632818268974,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3006914593f98edffce914c2f9f4026a"
+    }, {
       "name" : "9988@DESKTOP-KHAJIPG.main(1)",
       "children" : [ {
         "name" : "demoTest1",
-        "uid" : "a742853aeebb5c2c",
+        "uid" : "37cb2bfeb6e28612",
         "parentUid" : "5a509efedd5b9ea848099ef8af67820e",
         "status" : "passed",
         "time" : {
@@ -20,7 +141,7 @@
         "parameters" : [ ]
       }, {
         "name" : "demoTest2",
-        "uid" : "4bddb1dbca22b401",
+        "uid" : "c3f33ba02c8a2767",
         "parentUid" : "5a509efedd5b9ea848099ef8af67820e",
         "status" : "passed",
         "time" : {

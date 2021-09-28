@@ -1,20 +1,90 @@
 [ {
-  "uid" : "4bddb1dbca22b401",
-  "name" : "demoTest2",
+  "uid" : "cb30125a543aae2b",
+  "name" : "demoTest1",
   "time" : {
-    "start" : 1632810908203,
-    "stop" : 1632810908232,
-    "duration" : 29
+    "start" : 1632818223435,
+    "stop" : 1632818223553,
+    "duration" : 118
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a742853aeebb5c2c",
-  "name" : "demoTest1",
+  "uid" : "91c428e9fbd9fe00",
+  "name" : "Birthday button working and all cards displayed or not",
   "time" : {
-    "start" : 1632810908056,
-    "stop" : 1632810908126,
-    "duration" : 70
+    "start" : 1632818268823,
+    "stop" : 1632818268855,
+    "duration" : 32
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b1ebdb39757b",
+  "name" : "Birthday button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632818268923,
+    "stop" : 1632818268974,
+    "duration" : 51
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c77828b86798d428",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632818240047,
+    "stop" : 1632818240576,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e0a0c164543cf3",
+  "name" : "setupTests",
+  "time" : {
+    "start" : 1632818268521,
+    "stop" : 1632818268522,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "833cae33e076c677",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632818253244,
+    "stop" : 1632818253822,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e64c55b74d915672",
+  "name" : "Birthday button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632818268683,
+    "stop" : 1632818268722,
+    "duration" : 39
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb507250d4103221",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632818268540,
+    "stop" : 1632818268549,
+    "duration" : 9
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "746579ce77fbe992",
+  "name" : "demoTest2",
+  "time" : {
+    "start" : 1632818223624,
+    "stop" : 1632818223629,
+    "duration" : 5
   },
   "status" : "passed",
   "severity" : "normal"

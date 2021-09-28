@@ -1,0 +1,94 @@
+{
+  "uid" : "c77828b86798d428",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsCard1IsWorking",
+  "historyId" : "cec688b45535f8a0062238b3b19f51bc",
+  "time" : {
+    "start" : 1632818240047,
+    "stop" : 1632818240576,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1632818223675,
+      "stop" : 1632818240039,
+      "duration" : 16364
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1632818240580,
+      "stop" : 1632818241243,
+      "duration" : 663
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyIfCongratulationsCard1IsWorking"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_website_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHAJIPG"
+  }, {
+    "name" : "thread",
+    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c77828b86798d428.json",
+  "parameterValues" : [ ]
+}

@@ -1,4 +1,103 @@
 {
+  "e3d1a6c6bcc2537edd2eeaea70abe705" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb507250d4103221",
+      "status" : "skipped",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "time" : {
+        "start" : 1632818268540,
+        "stop" : 1632818268549,
+        "duration" : 9
+      }
+    } ]
+  },
+  "6b343e724e3b6a5b3869cc25a869a8fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0b1ebdb39757b",
+      "status" : "skipped",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "time" : {
+        "start" : 1632818268923,
+        "stop" : 1632818268974,
+        "duration" : 51
+      }
+    } ]
+  },
+  "20b0b5e3049cf7592bf89a4b8d749811" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "833cae33e076c677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632818253244,
+        "stop" : 1632818253822,
+        "duration" : 578
+      }
+    } ]
+  },
+  "e9b6996e4cd45bc85dbe7fd315cbd026" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91c428e9fbd9fe00",
+      "status" : "skipped",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "time" : {
+        "start" : 1632818268823,
+        "stop" : 1632818268855,
+        "duration" : 32
+      }
+    } ]
+  },
+  "349950549f8b22fa9f6973e35e3ec5bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e64c55b74d915672",
+      "status" : "skipped",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "time" : {
+        "start" : 1632818268683,
+        "stop" : 1632818268722,
+        "duration" : 39
+      }
+    } ]
+  },
   "624dba1beaf237fdd1dac3d8d34673a5" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bddb1dbca22b401",
+      "uid" : "746579ce77fbe992",
       "status" : "passed",
       "time" : {
-        "start" : 1632810908203,
-        "stop" : 1632810908232,
-        "duration" : 29
+        "start" : 1632818223624,
+        "stop" : 1632818223629,
+        "duration" : 5
       }
     } ]
   },
@@ -28,12 +127,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a742853aeebb5c2c",
+      "uid" : "cb30125a543aae2b",
       "status" : "passed",
       "time" : {
-        "start" : 1632810908056,
-        "stop" : 1632810908126,
-        "duration" : 70
+        "start" : 1632818223435,
+        "stop" : 1632818223553,
+        "duration" : 118
+      }
+    } ]
+  },
+  "cec688b45535f8a0062238b3b19f51bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c77828b86798d428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632818240047,
+        "stop" : 1632818240576,
+        "duration" : 529
+      }
+    } ]
+  },
+  "4b191d6193f4cba6446f9d659cb9ebca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48e0a0c164543cf3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "time" : {
+        "start" : 1632818268521,
+        "stop" : 1632818268522,
+        "duration" : 1
       }
     } ]
   }
