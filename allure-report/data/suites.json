@@ -9,7 +9,7 @@
         "name" : "Tests.DemoTest",
         "children" : [ {
           "name" : "demoTest1",
-          "uid" : "d9682610a32b010a",
+          "uid" : "a742853aeebb5c2c",
           "parentUid" : "db3e228ca18ce76eb93cd8a620e53a69",
           "status" : "passed",
           "time" : {
@@ -22,7 +22,7 @@
           "parameters" : [ ]
         }, {
           "name" : "demoTest2",
-          "uid" : "21d0b25a29c0138e",
+          "uid" : "4bddb1dbca22b401",
           "parentUid" : "db3e228ca18ce76eb93cd8a620e53a69",
           "status" : "passed",
           "time" : {

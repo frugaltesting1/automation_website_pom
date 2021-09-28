@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "demoTest1",
-    "uid" : "d9682610a32b010a",
+    "uid" : "a742853aeebb5c2c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ ]
   }, {
     "name" : "demoTest2",
-    "uid" : "21d0b25a29c0138e",
+    "uid" : "4bddb1dbca22b401",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {

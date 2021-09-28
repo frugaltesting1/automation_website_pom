@@ -6,27 +6,27 @@
     "children" : [ {
       "name" : "9988@DESKTOP-KHAJIPG.main(1)",
       "children" : [ {
-        "name" : "demoTest2",
-        "uid" : "21d0b25a29c0138e",
-        "parentUid" : "5a509efedd5b9ea848099ef8af67820e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1632810908203,
-          "stop" : 1632810908232,
-          "duration" : 29
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "demoTest1",
-        "uid" : "d9682610a32b010a",
+        "uid" : "a742853aeebb5c2c",
         "parentUid" : "5a509efedd5b9ea848099ef8af67820e",
         "status" : "passed",
         "time" : {
           "start" : 1632810908056,
           "stop" : 1632810908126,
           "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "demoTest2",
+        "uid" : "4bddb1dbca22b401",
+        "parentUid" : "5a509efedd5b9ea848099ef8af67820e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632810908203,
+          "stop" : 1632810908232,
+          "duration" : 29
         },
         "flaky" : false,
         "newFailed" : false,
