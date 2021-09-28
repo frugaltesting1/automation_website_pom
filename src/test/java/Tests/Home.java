@@ -9,7 +9,7 @@ import Base.BaseTest;
 import Pages.HomePage;
 import Pages.GiftingPage;
 
-import utility.AllureReport;
+import Utility.AllureReport;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 

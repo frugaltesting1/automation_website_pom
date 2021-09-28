@@ -1,4 +1,4 @@
-package utility;
+package Utility;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.AllureLifecycle;

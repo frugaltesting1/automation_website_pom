@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="automation_website_pom(failed)">
+    <classes>
+      <class name="Tests.GiftCardsTab">
+        <methods>
+          <include name="setupTests"/>
+          <include name="verifyIfBirthdayCard1IsWorking"/>
+          <include name="verifyIfBirthdayCard3IsWorking"/>
+          <include name="verifyIfCongratulationsTabIsWorking"/>
+          <include name="clearTests"/>
+          <include name="verifyIfBirthdayCard2IsWorking"/>
+        </methods>
+      </class> <!-- Tests.GiftCardsTab -->
+      <class name="Tests.Home">
+        <methods>
+          <include name="verifyIfGoogleEarthButtonWorking"/>
+          <include name="verifyIfFeedbackToolIsOpening"/>
+          <include name="verifyIfClickOnGiftingLeadsToEcoFriendlyGiftingPage"/>
+          <include name="verifyIfStripeButtonWorking"/>
+          <include name="verifyIfLinkedinIconLeadsToLinkedinPage"/>
+          <include name="verifyIfInstagramIconLeadsToInstagramPage"/>
+          <include name="verifyIfJoinUsButtonWorking"/>
+          <include name="verifyIfBecomeGuardianWorking"/>
+          <include name="setupTests"/>
+          <include name="verifyIfFacebookIconLeadsToFacebookPage"/>
+          <include name="verifyIfYoutubeIconLeadsToYoutubePage"/>
+          <include name="verifyIfLearnMoreWorking"/>
+          <include name="clearTests"/>
+        </methods>
+      </class> <!-- Tests.Home -->
+    </classes>
+  </test> <!-- automation_website_pom(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

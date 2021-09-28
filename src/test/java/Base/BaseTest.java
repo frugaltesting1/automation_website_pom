@@ -3,13 +3,13 @@ package Base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import utility.Config;
+import Utility.Config;
 
     public class BaseTest {
         //this is base test
         public WebDriver driver;
         public String baseURL;
-        utility.Config config = new utility.Config();
+        Utility.Config config = new Utility.Config();
 
 
         public void setup() {

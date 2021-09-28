@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+	<test verbose="2" preserve-order="true"
+		name="automation_website_pom">
+		<classes>
+			<class name="Tests.DemoTest">
+				<methods>
+					<include name="demoTest1" />
+					<include name="demoTest2" />
+					<include name="" />
+				</methods>
+			</class>
+	<!--  		<class name="Tests.GiftCardsTab">
+			<methods>
+			<include name="verifyIfCongratulationsCard1IsWorking" />
+			<include name="verifyIfCongratulationsCard2sWorking" />
+			<include name="verifyIfCongratulationsTabIsWorking" />
+			<include name="verifyIfBirthdayCard1IsWorking" />
+			<include name="verifyIfBirthdayCard2IsWorking" />
+			<include name="verifyIfBirthdayCard3IsWorking" />
+			</methods>
+			</class>
+			<class name="Tests.Home">
+			<methods>
+			<include name="verifySacredGrovesLogoVisibility" />
+			<include name="verifyIfHomePage" />
+			<include name="verifyIfJoinUsIconIsWorking" />
+			<include name="verifyIfPartnershipsIsWorking" />
+			<include name="verifyIfGlobalClimateIndicatorsIsWorking" />
+			<include name="verifyIfForestOnTheCloudIsWorking" />
+			<include name="verifyIfCoedRhyalIsWorking" />
+			<include name="verifyIfGigrinPrysgIsWorking" />
+			<include name="verifyIfOurApproachIsWorking" />
+			<include name="verifyIfClickOnGiftingLeadsToEcoFriendlyGiftingPage" />
+			<include name="verifyIfLoginButtonIsWorking" />
+			<include name="verifyIfSignUpIsWorking" />
+			<include name="verifyIfFeedbackToolIsOpening" />
+			<include name="verifyIfHowItWorksIsWorking" />
+			<include name="verifyIfBecomeGuardianWorking" />
+			<include name="verifyIfLearnMoreWorking" />
+			<include name="verifyIfGoogleEarthButtonWorking" />
+			<include name="verifyIfStripeButtonWorking" />
+			<include name="verifyIfJoinUsButtonWorking" />
+			<include name="verifyIfFacebookIconLeadsToFacebookPage" />
+			<include name="verifyIfInstagramIconLeadsToInstagramPage" />
+			<include name="verifyIfLinkedinIconLeadsToLinkedinPage" />
+			<include name="verifyIfYoutubeIconLeadsToYoutubePage" />
+			</methods>
+			</class>
+-->
+		</classes>
+	</test>
+</suite>
