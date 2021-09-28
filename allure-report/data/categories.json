@@ -7,7 +7,7 @@
       "name" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
       "children" : [ {
         "name" : "setupTests",
-        "uid" : "48e0a0c164543cf3",
+        "uid" : "a756bf7bbadb208c",
         "parentUid" : "9e871e7f9244387026539f0c520096f2",
         "status" : "broken",
         "time" : {
@@ -20,6 +20,40 @@
         "parameters" : [ ]
       } ],
       "uid" : "9e871e7f9244387026539f0c520096f2"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//header/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]\"}\n  (Session info: headless chrome=93.0.4577.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3006a5be8867a29711b1ffe35cafc3a9\n*** Element info: {Using=xpath, value=//header/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]}",
+      "children" : [ {
+        "name" : "Test:Click On Gifting, verify if it is taking to eco-friendly gifting page",
+        "uid" : "f4d2560a524ea98a",
+        "parentUid" : "19d59dcc71325e5761961b0e3dcae0ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632819852384,
+          "stop" : 1632819857804,
+          "duration" : 5420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19d59dcc71325e5761961b0e3dcae0ad"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //body/div[7]/div[1]/div[1]/div[1]/div[1]/button[1] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test:Click On Feedback, verifying if it is opening feedback PopUp",
+        "uid" : "8562b66e7e2d8061",
+        "parentUid" : "475fff59a572eccc4e71a9febe1f882e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632819937910,
+          "stop" : 1632819943680,
+          "duration" : 5770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "475fff59a572eccc4e71a9febe1f882e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

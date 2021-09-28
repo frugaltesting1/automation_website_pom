@@ -1,12 +1,12 @@
 {
-  "uid" : "c77828b86798d428",
-  "name" : "Congratulations button working and all cards displayed or not",
-  "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsCard1IsWorking",
-  "historyId" : "cec688b45535f8a0062238b3b19f51bc",
+  "uid" : "cf78061d009384a8",
+  "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
+  "fullName" : "Tests.Home.verifyIfInstagramIconLeadsToInstagramPage",
+  "historyId" : "18e4d7d4b90b3a85f2a29b28ecbebf28",
   "time" : {
-    "start" : 1632818240047,
-    "stop" : 1632818240576,
-    "duration" : 529
+    "start" : 1632820154337,
+    "stop" : 1632820157196,
+    "duration" : 2859
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,46 +14,46 @@
   "beforeStages" : [ {
     "name" : "setupTests",
     "time" : {
-      "start" : 1632818223675,
-      "stop" : 1632818240039,
-      "duration" : 16364
+      "start" : 1632820134242,
+      "stop" : 1632820154331,
+      "duration" : 20089
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
     "time" : {
-      "start" : 1632818240580,
-      "stop" : 1632818241243,
-      "duration" : 663
+      "start" : 1632820157199,
+      "stop" : 1632820158613,
+      "duration" : 1414
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "Tests.GiftCardsTab"
+    "value" : "Tests.Home"
   }, {
     "name" : "testClass",
-    "value" : "Tests.GiftCardsTab"
+    "value" : "Tests.Home"
   }, {
     "name" : "testMethod",
-    "value" : "verifyIfCongratulationsCard1IsWorking"
+    "value" : "verifyIfInstagramIconLeadsToInstagramPage"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -62,13 +62,13 @@
     "value" : "automation_website_pom"
   }, {
     "name" : "subSuite",
-    "value" : "Tests.GiftCardsTab"
+    "value" : "Tests.Home"
   }, {
     "name" : "host",
     "value" : "DESKTOP-KHAJIPG"
   }, {
     "name" : "thread",
-    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -89,6 +89,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c77828b86798d428.json",
+  "source" : "cf78061d009384a8.json",
   "parameterValues" : [ ]
 }

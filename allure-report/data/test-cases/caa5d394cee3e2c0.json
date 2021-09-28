@@ -1,0 +1,94 @@
+{
+  "uid" : "caa5d394cee3e2c0",
+  "name" : "Test:Click On Gigrin Prysg, verifying if it is taking to correct page",
+  "fullName" : "Tests.Home.verifyIfGigrinPrysgIsWorking",
+  "historyId" : "5298011ed5b9f7a47b90655e68227b1a",
+  "time" : {
+    "start" : 1632819788029,
+    "stop" : 1632819804910,
+    "duration" : 16881
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1632819767476,
+      "stop" : 1632819788023,
+      "duration" : 20547
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1632819804917,
+      "stop" : 1632819806020,
+      "duration" : 1103
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyIfGigrinPrysgIsWorking"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_website_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHAJIPG"
+  }, {
+    "name" : "thread",
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "caa5d394cee3e2c0.json",
+  "parameterValues" : [ ]
+}

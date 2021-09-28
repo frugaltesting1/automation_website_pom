@@ -1,0 +1,94 @@
+{
+  "uid" : "326e253733fc9345",
+  "name" : "Test:Check to see if we landed on home page",
+  "fullName" : "Tests.Home.verifyIfHomePage",
+  "historyId" : "fbb343244fe4ab5854eecd5c7d7deb4",
+  "time" : {
+    "start" : 1632819601425,
+    "stop" : 1632819602338,
+    "duration" : 913
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1632819579546,
+      "stop" : 1632819601419,
+      "duration" : 21873
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1632819602342,
+      "stop" : 1632819605111,
+      "duration" : 2769
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyIfHomePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_website_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHAJIPG"
+  }, {
+    "name" : "thread",
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "326e253733fc9345.json",
+  "parameterValues" : [ ]
+}

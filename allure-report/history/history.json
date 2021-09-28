@@ -3,39 +3,18 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb507250d4103221",
-      "status" : "skipped",
-      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "uid" : "bfbc9eb1009fab7a",
+      "status" : "passed",
       "time" : {
-        "start" : 1632818268540,
-        "stop" : 1632818268549,
-        "duration" : 9
-      }
-    } ]
-  },
-  "6b343e724e3b6a5b3869cc25a869a8fb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a0b1ebdb39757b",
-      "status" : "skipped",
-      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
-      "time" : {
-        "start" : 1632818268923,
-        "stop" : 1632818268974,
-        "duration" : 51
+        "start" : 1632819465039,
+        "stop" : 1632819470593,
+        "duration" : 5554
       }
     } ]
   },
@@ -49,32 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "833cae33e076c677",
+      "uid" : "29073e36730d453c",
       "status" : "passed",
       "time" : {
-        "start" : 1632818253244,
-        "stop" : 1632818253822,
-        "duration" : 578
+        "start" : 1632819428785,
+        "stop" : 1632819432912,
+        "duration" : 4127
       }
     } ]
   },
-  "e9b6996e4cd45bc85dbe7fd315cbd026" : {
+  "fbb343244fe4ab5854eecd5c7d7deb4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91c428e9fbd9fe00",
-      "status" : "skipped",
-      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "uid" : "326e253733fc9345",
+      "status" : "passed",
       "time" : {
-        "start" : 1632818268823,
-        "stop" : 1632818268855,
-        "duration" : 32
+        "start" : 1632819601425,
+        "stop" : 1632819602338,
+        "duration" : 913
       }
     } ]
   },
@@ -82,19 +60,18 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e64c55b74d915672",
-      "status" : "skipped",
-      "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
+      "uid" : "f7ae75c0a6d8d6a4",
+      "status" : "passed",
       "time" : {
-        "start" : 1632818268683,
-        "stop" : 1632818268722,
-        "duration" : 39
+        "start" : 1632819503230,
+        "stop" : 1632819508245,
+        "duration" : 5015
       }
     } ]
   },
@@ -108,12 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "746579ce77fbe992",
+      "uid" : "2e54519c8f04edf7",
       "status" : "passed",
       "time" : {
-        "start" : 1632818223624,
-        "stop" : 1632818223629,
-        "duration" : 5
+        "start" : 1632819373979,
+        "stop" : 1632819374045,
+        "duration" : 66
       }
     } ]
   },
@@ -127,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb30125a543aae2b",
+      "uid" : "6f81c12a47eb35e",
       "status" : "passed",
       "time" : {
-        "start" : 1632818223435,
-        "stop" : 1632818223553,
-        "duration" : 118
+        "start" : 1632819373394,
+        "stop" : 1632819373790,
+        "duration" : 396
       }
     } ]
   },
@@ -146,12 +123,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c77828b86798d428",
+      "uid" : "562ac6baf8dec087",
       "status" : "passed",
       "time" : {
-        "start" : 1632818240047,
-        "stop" : 1632818240576,
-        "duration" : 529
+        "start" : 1632819403871,
+        "stop" : 1632819406426,
+        "duration" : 2555
       }
     } ]
   },
@@ -165,13 +142,471 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48e0a0c164543cf3",
+      "uid" : "a756bf7bbadb208c",
       "status" : "broken",
       "statusDetails" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
       "time" : {
         "start" : 1632818268521,
         "stop" : 1632818268522,
         "duration" : 1
+      }
+    } ]
+  },
+  "18e4d7d4b90b3a85f2a29b28ecbebf28" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf78061d009384a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820154337,
+        "stop" : 1632820157196,
+        "duration" : 2859
+      }
+    } ]
+  },
+  "42c6087993bee06180d50093b1076cac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e07e74b6f8f3f9a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819742673,
+        "stop" : 1632819766114,
+        "duration" : 23441
+      }
+    } ]
+  },
+  "a29b3ef4533a65469c91218d766ce8bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1db4dcb680e77347",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820086269,
+        "stop" : 1632820095052,
+        "duration" : 8783
+      }
+    } ]
+  },
+  "d8cb9362960110c1e4a2b222a2ba9e68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9aa57fcd12b80b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819881683,
+        "stop" : 1632819888653,
+        "duration" : 6970
+      }
+    } ]
+  },
+  "afef1f3614af6b86e6ca10d43194b827" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2c4ffc9b264c753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819965730,
+        "stop" : 1632819967907,
+        "duration" : 2177
+      }
+    } ]
+  },
+  "6b343e724e3b6a5b3869cc25a869a8fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "960cf41efd755d96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819547213,
+        "stop" : 1632819547989,
+        "duration" : 776
+      }
+    } ]
+  },
+  "e9b6996e4cd45bc85dbe7fd315cbd026" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83172c100d2183c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819529563,
+        "stop" : 1632819531074,
+        "duration" : 1511
+      }
+    } ]
+  },
+  "54ae1e995c12d24c97595042c20ed70b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e06838fd8570c11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819912179,
+        "stop" : 1632819922140,
+        "duration" : 9961
+      }
+    } ]
+  },
+  "4dd6afcd2c29539824b2c4063e121883" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80e298a111b980fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819984328,
+        "stop" : 1632819985604,
+        "duration" : 1276
+      }
+    } ]
+  },
+  "49d90d53eb0761ebaaa203f4748e90f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44dd213caea5b574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819702120,
+        "stop" : 1632819711003,
+        "duration" : 8883
+      }
+    } ]
+  },
+  "5298011ed5b9f7a47b90655e68227b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "caa5d394cee3e2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819788029,
+        "stop" : 1632819804910,
+        "duration" : 16881
+      }
+    } ]
+  },
+  "9d6eee6197ebf6d6916d0e6f9194e61d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acf37b477cfd4bff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819621252,
+        "stop" : 1632819626785,
+        "duration" : 5533
+      }
+    } ]
+  },
+  "8181751bc889a14db9adf42ecfc47c13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4d2560a524ea98a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//header/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]\"}\n  (Session info: headless chrome=93.0.4577.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53215}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3006a5be8867a29711b1ffe35cafc3a9\n*** Element info: {Using=xpath, value=//header/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]}",
+      "time" : {
+        "start" : 1632819852384,
+        "stop" : 1632819857804,
+        "duration" : 5420
+      }
+    } ]
+  },
+  "1ea06663759226a0a692f6044e9482aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c8422f56edd3732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820003011,
+        "stop" : 1632820008254,
+        "duration" : 5243
+      }
+    } ]
+  },
+  "e465336bed058a6bb4de965cdde2bf22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "948c1248560d4c8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820024808,
+        "stop" : 1632820028271,
+        "duration" : 3463
+      }
+    } ]
+  },
+  "71e87b8c9eecbdffaf5d4be29408dee0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5e12fc72cd53b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820173387,
+        "stop" : 1632820175983,
+        "duration" : 2596
+      }
+    } ]
+  },
+  "3bb0f6225e02151854727d17c195b4d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "136645e23cb5d673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820196086,
+        "stop" : 1632820210312,
+        "duration" : 14226
+      }
+    } ]
+  },
+  "6ed26e292a9bd30bfd0c5aa984c72565" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9a1861edce01ea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819567328,
+        "stop" : 1632819568375,
+        "duration" : 1047
+      }
+    } ]
+  },
+  "dc24c06789ea750a436106e6f8779bfc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ceccdf783c5e30a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819822601,
+        "stop" : 1632819831930,
+        "duration" : 9329
+      }
+    } ]
+  },
+  "4e8830afcbad14e2cd34be70c26fdf27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d723172188247f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820114406,
+        "stop" : 1632820130681,
+        "duration" : 16275
+      }
+    } ]
+  },
+  "e8f4d6874eef846254ee6a9539a907b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62666c4fc3e1147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819645341,
+        "stop" : 1632819652750,
+        "duration" : 7409
+      }
+    } ]
+  },
+  "7f7de867781138c318575d2d67097edf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c6cd4fce11a8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632819676206,
+        "stop" : 1632819684265,
+        "duration" : 8059
+      }
+    } ]
+  },
+  "d5b76c739d24825a91961cbe90a44b2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8562b66e7e2d8061",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //body/div[7]/div[1]/div[1]/div[1]/div[1]/button[1] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1632819937910,
+        "stop" : 1632819943680,
+        "duration" : 5770
+      }
+    } ]
+  },
+  "b0ba227aeae8a9d0954f2e9fc1528ef3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6ad244868121ebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632820047141,
+        "stop" : 1632820064604,
+        "duration" : 17463
       }
     } ]
   }

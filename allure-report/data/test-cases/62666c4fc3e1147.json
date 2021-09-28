@@ -1,59 +1,59 @@
 {
-  "uid" : "cb30125a543aae2b",
-  "name" : "demoTest1",
-  "fullName" : "Tests.DemoTest.demoTest1",
-  "historyId" : "f593a04036b0283f3b9082a16a01438b",
+  "uid" : "62666c4fc3e1147",
+  "name" : "Test:Click On partnerships, verifying if it is taking to partnerships page",
+  "fullName" : "Tests.Home.verifyIfPartnershipsIsWorking",
+  "historyId" : "e8f4d6874eef846254ee6a9539a907b4",
   "time" : {
-    "start" : 1632818223435,
-    "stop" : 1632818223553,
-    "duration" : 118
+    "start" : 1632819645341,
+    "stop" : 1632819652750,
+    "duration" : 7409
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setupx",
+    "name" : "setupTests",
     "time" : {
-      "start" : 1632818222973,
-      "stop" : 1632818222982,
-      "duration" : 9
+      "start" : 1632819628214,
+      "stop" : 1632819645336,
+      "duration" : 17122
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
-    "name" : "close",
+    "name" : "clearTests",
     "time" : {
-      "start" : 1632818223609,
-      "stop" : 1632818223609,
-      "duration" : 0
+      "start" : 1632819652755,
+      "stop" : 1632819655132,
+      "duration" : 2377
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "testClass",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "testMethod",
-    "value" : "demoTest1"
+    "value" : "verifyIfPartnershipsIsWorking"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -62,13 +62,13 @@
     "value" : "automation_website_pom"
   }, {
     "name" : "subSuite",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "host",
     "value" : "DESKTOP-KHAJIPG"
   }, {
     "name" : "thread",
-    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,18 +85,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "37cb2bfeb6e28612",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632810908056,
-        "stop" : 1632810908126,
-        "duration" : 70
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cb30125a543aae2b.json",
+  "source" : "62666c4fc3e1147.json",
   "parameterValues" : [ ]
 }

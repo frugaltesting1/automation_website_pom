@@ -1,5 +1,5 @@
 {
-  "uid" : "a0b1ebdb39757b",
+  "uid" : "92e72435ce79095c",
   "name" : "Birthday button working and all cards displayed or not",
   "fullName" : "Tests.GiftCardsTab.verifyIfBirthdayCard3IsWorking",
   "historyId" : "6b343e724e3b6a5b3869cc25a869a8fb",
@@ -25,10 +25,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
@@ -42,10 +42,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -83,14 +83,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0b1ebdb39757b.json",
+  "source" : "92e72435ce79095c.json",
   "parameterValues" : [ ]
 }

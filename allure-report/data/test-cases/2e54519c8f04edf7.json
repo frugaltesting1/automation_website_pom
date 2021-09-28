@@ -1,12 +1,12 @@
 {
-  "uid" : "37cb2bfeb6e28612",
-  "name" : "demoTest1",
-  "fullName" : "Tests.DemoTest.demoTest1",
-  "historyId" : "f593a04036b0283f3b9082a16a01438b",
+  "uid" : "2e54519c8f04edf7",
+  "name" : "demoTest2",
+  "fullName" : "Tests.DemoTest.demoTest2",
+  "historyId" : "624dba1beaf237fdd1dac3d8d34673a5",
   "time" : {
-    "start" : 1632810908056,
-    "stop" : 1632810908126,
-    "duration" : 70
+    "start" : 1632819373979,
+    "stop" : 1632819374045,
+    "duration" : 66
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,25 +14,8 @@
   "beforeStages" : [ {
     "name" : "setupx",
     "time" : {
-      "start" : 1632810907533,
-      "stop" : 1632810907548,
-      "duration" : 15
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  } ],
-  "afterStages" : [ {
-    "name" : "close",
-    "time" : {
-      "start" : 1632810908179,
-      "stop" : 1632810908180,
+      "start" : 1632819373919,
+      "stop" : 1632819373920,
       "duration" : 1
     },
     "description" : "",
@@ -40,10 +23,27 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1632819374097,
+      "stop" : 1632819374097,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -53,7 +53,7 @@
     "value" : "Tests.DemoTest"
   }, {
     "name" : "testMethod",
-    "value" : "demoTest1"
+    "value" : "demoTest2"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -68,7 +68,7 @@
     "value" : "DESKTOP-KHAJIPG"
   }, {
     "name" : "thread",
-    "value" : "9988@DESKTOP-KHAJIPG.main(1)"
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,12 +81,30 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a0ac9415457c88e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632818223624,
+        "stop" : 1632818223629,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "143b9ce46d5eab2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632810908203,
+        "stop" : 1632810908232,
+        "duration" : 29
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "37cb2bfeb6e28612.json",
+  "source" : "2e54519c8f04edf7.json",
   "parameterValues" : [ ]
 }

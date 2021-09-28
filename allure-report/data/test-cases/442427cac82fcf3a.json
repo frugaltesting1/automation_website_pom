@@ -1,5 +1,5 @@
 {
-  "uid" : "cb507250d4103221",
+  "uid" : "442427cac82fcf3a",
   "name" : "Congratulations button working and all cards displayed or not",
   "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsTabIsWorking",
   "historyId" : "e3d1a6c6bcc2537edd2eeaea70abe705",
@@ -27,10 +27,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
@@ -44,10 +44,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -85,14 +85,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cb507250d4103221.json",
+  "source" : "442427cac82fcf3a.json",
   "parameterValues" : [ ]
 }

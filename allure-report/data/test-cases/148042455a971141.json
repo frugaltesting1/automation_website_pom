@@ -1,12 +1,12 @@
 {
-  "uid" : "91c428e9fbd9fe00",
+  "uid" : "148042455a971141",
   "name" : "Birthday button working and all cards displayed or not",
-  "fullName" : "Tests.GiftCardsTab.verifyIfBirthdayCard2IsWorking",
-  "historyId" : "e9b6996e4cd45bc85dbe7fd315cbd026",
+  "fullName" : "Tests.GiftCardsTab.verifyIfBirthdayCard1IsWorking",
+  "historyId" : "349950549f8b22fa9f6973e35e3ec5bb",
   "time" : {
-    "start" : 1632818268823,
-    "stop" : 1632818268855,
-    "duration" : 32
+    "start" : 1632818268683,
+    "stop" : 1632818268722,
+    "duration" : 39
   },
   "status" : "skipped",
   "statusMessage" : "element click intercepted: Element is not clickable at point (202, 713)\n  (Session info: headless chrome=93.0.4577.82)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-KHAJIPG', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a65aba7927ca350e3787e38dba97b623",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "setupTests",
     "time" : {
-      "start" : 1632818268785,
-      "stop" : 1632818268785,
+      "start" : 1632818268630,
+      "stop" : 1632818268630,
       "duration" : 0
     },
     "description" : "",
@@ -25,16 +25,16 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
     "time" : {
-      "start" : 1632818268873,
-      "stop" : 1632818268873,
+      "start" : 1632818268757,
+      "stop" : 1632818268757,
       "duration" : 0
     },
     "description" : "",
@@ -42,10 +42,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -55,7 +55,7 @@
     "value" : "Tests.GiftCardsTab"
   }, {
     "name" : "testMethod",
-    "value" : "verifyIfBirthdayCard2IsWorking"
+    "value" : "verifyIfBirthdayCard1IsWorking"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -83,14 +83,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "91c428e9fbd9fe00.json",
+  "source" : "148042455a971141.json",
   "parameterValues" : [ ]
 }

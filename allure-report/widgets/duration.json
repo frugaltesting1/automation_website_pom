@@ -1,15 +1,155 @@
 [ {
-  "uid" : "a0b1ebdb39757b",
-  "name" : "Birthday button working and all cards displayed or not",
+  "uid" : "a9a1861edce01ea5",
+  "name" : "Test:To check if sacred groves logo is visible or not",
   "time" : {
-    "start" : 1632818268923,
-    "stop" : 1632818268974,
-    "duration" : 51
+    "start" : 1632819567328,
+    "stop" : 1632819568375,
+    "duration" : 1047
   },
-  "status" : "skipped",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "48e0a0c164543cf3",
+  "uid" : "29073e36730d453c",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632819428785,
+    "stop" : 1632819432912,
+    "duration" : 4127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83172c100d2183c3",
+  "name" : "Birthday button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632819529563,
+    "stop" : 1632819531074,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceccdf783c5e30a9",
+  "name" : "Test:Click On our approach, verifying if it is taking to our approach page",
+  "time" : {
+    "start" : 1632819822601,
+    "stop" : 1632819831930,
+    "duration" : 9329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62666c4fc3e1147",
+  "name" : "Test:Click On partnerships, verifying if it is taking to partnerships page",
+  "time" : {
+    "start" : 1632819645341,
+    "stop" : 1632819652750,
+    "duration" : 7409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e54519c8f04edf7",
+  "name" : "demoTest2",
+  "time" : {
+    "start" : 1632819373979,
+    "stop" : 1632819374045,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "948c1248560d4c8d",
+  "name" : "Test:Click On Google Earth Button",
+  "time" : {
+    "start" : 1632820024808,
+    "stop" : 1632820028271,
+    "duration" : 3463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80e298a111b980fd",
+  "name" : "Test:Click On Become A Guardian Button",
+  "time" : {
+    "start" : 1632819984328,
+    "stop" : 1632819985604,
+    "duration" : 1276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf78061d009384a8",
+  "name" : "Test:Click on Instagram Icon on Footer, verify if it is taking to instagram page or not.",
+  "time" : {
+    "start" : 1632820154337,
+    "stop" : 1632820157196,
+    "duration" : 2859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7ae75c0a6d8d6a4",
+  "name" : "Birthday button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632819503230,
+    "stop" : 1632819508245,
+    "duration" : 5015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "960cf41efd755d96",
+  "name" : "Birthday button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632819547213,
+    "stop" : 1632819547989,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c8422f56edd3732",
+  "name" : "Test:Click On Learn More Button",
+  "time" : {
+    "start" : 1632820003011,
+    "stop" : 1632820008254,
+    "duration" : 5243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d2560a524ea98a",
+  "name" : "Test:Click On Gifting, verify if it is taking to eco-friendly gifting page",
+  "time" : {
+    "start" : 1632819852384,
+    "stop" : 1632819857804,
+    "duration" : 5420
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c6cd4fce11a8d5",
+  "name" : "Test:Click On global climate indicators, verifying if it is taking to correct page",
+  "time" : {
+    "start" : 1632819676206,
+    "stop" : 1632819684265,
+    "duration" : 8059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aa57fcd12b80b27",
+  "name" : "Test:Click On Login, verifying if it is taking to Login page",
+  "time" : {
+    "start" : 1632819881683,
+    "stop" : 1632819888653,
+    "duration" : 6970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a756bf7bbadb208c",
   "name" : "setupTests",
   "time" : {
     "start" : 1632818268521,
@@ -19,73 +159,163 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "e64c55b74d915672",
-  "name" : "Birthday button working and all cards displayed or not",
+  "uid" : "e5e12fc72cd53b5a",
+  "name" : "Test:Click on Linkedin Icon on Footer, verify if it is taking to facebook page or not.",
   "time" : {
-    "start" : 1632818268683,
-    "stop" : 1632818268722,
-    "duration" : 39
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "833cae33e076c677",
-  "name" : "Congratulations button working and all cards displayed or not",
-  "time" : {
-    "start" : 1632818253244,
-    "stop" : 1632818253822,
-    "duration" : 578
+    "start" : 1632820173387,
+    "stop" : 1632820175983,
+    "duration" : 2596
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c77828b86798d428",
-  "name" : "Congratulations button working and all cards displayed or not",
+  "uid" : "e06838fd8570c11c",
+  "name" : "Test:Click On SignUp, verifying if it is taking to SignUp page",
   "time" : {
-    "start" : 1632818240047,
-    "stop" : 1632818240576,
-    "duration" : 529
+    "start" : 1632819912179,
+    "stop" : 1632819922140,
+    "duration" : 9961
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "746579ce77fbe992",
-  "name" : "demoTest2",
+  "uid" : "c6ad244868121ebd",
+  "name" : "Test:Click On Stripe Button",
   "time" : {
-    "start" : 1632818223624,
-    "stop" : 1632818223629,
-    "duration" : 5
+    "start" : 1632820047141,
+    "stop" : 1632820064604,
+    "duration" : 17463
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cb507250d4103221",
-  "name" : "Congratulations button working and all cards displayed or not",
+  "uid" : "8562b66e7e2d8061",
+  "name" : "Test:Click On Feedback, verifying if it is opening feedback PopUp",
   "time" : {
-    "start" : 1632818268540,
-    "stop" : 1632818268549,
-    "duration" : 9
+    "start" : 1632819937910,
+    "stop" : 1632819943680,
+    "duration" : 5770
   },
-  "status" : "skipped",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "cb30125a543aae2b",
+  "uid" : "6f81c12a47eb35e",
   "name" : "demoTest1",
   "time" : {
-    "start" : 1632818223435,
-    "stop" : 1632818223553,
-    "duration" : 118
+    "start" : 1632819373394,
+    "stop" : 1632819373790,
+    "duration" : 396
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "91c428e9fbd9fe00",
-  "name" : "Birthday button working and all cards displayed or not",
+  "uid" : "562ac6baf8dec087",
+  "name" : "Congratulations button working and all cards displayed or not",
   "time" : {
-    "start" : 1632818268823,
-    "stop" : 1632818268855,
-    "duration" : 32
+    "start" : 1632819403871,
+    "stop" : 1632819406426,
+    "duration" : 2555
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44dd213caea5b574",
+  "name" : "Test:Click On forest on the cloud, verifying if it is taking to correct page",
+  "time" : {
+    "start" : 1632819702120,
+    "stop" : 1632819711003,
+    "duration" : 8883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "136645e23cb5d673",
+  "name" : "Test:Click on Youtube Icon on Footer, verify if it is taking to youtube page or not.",
+  "time" : {
+    "start" : 1632820196086,
+    "stop" : 1632820210312,
+    "duration" : 14226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfbc9eb1009fab7a",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "time" : {
+    "start" : 1632819465039,
+    "stop" : 1632819470593,
+    "duration" : 5554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d723172188247f4",
+  "name" : "Test:Click on Facebook Icon on Footer, verify if it is taking to facebook page or not.",
+  "time" : {
+    "start" : 1632820114406,
+    "stop" : 1632820130681,
+    "duration" : 16275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e07e74b6f8f3f9a6",
+  "name" : "Test:Click On Coed Rhyal, verifying if it is taking to correct page",
+  "time" : {
+    "start" : 1632819742673,
+    "stop" : 1632819766114,
+    "duration" : 23441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db4dcb680e77347",
+  "name" : "Test:Click On Join Us Button",
+  "time" : {
+    "start" : 1632820086269,
+    "stop" : 1632820095052,
+    "duration" : 8783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "326e253733fc9345",
+  "name" : "Test:Check to see if we landed on home page",
+  "time" : {
+    "start" : 1632819601425,
+    "stop" : 1632819602338,
+    "duration" : 913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caa5d394cee3e2c0",
+  "name" : "Test:Click On Gigrin Prysg, verifying if it is taking to correct page",
+  "time" : {
+    "start" : 1632819788029,
+    "stop" : 1632819804910,
+    "duration" : 16881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acf37b477cfd4bff",
+  "name" : "Test:Click On join us, verifying if it is taking to join us page",
+  "time" : {
+    "start" : 1632819621252,
+    "stop" : 1632819626785,
+    "duration" : 5533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c4ffc9b264c753",
+  "name" : "Test:Click On HowItWorks Button",
+  "time" : {
+    "start" : 1632819965730,
+    "stop" : 1632819967907,
+    "duration" : 2177
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

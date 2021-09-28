@@ -1,0 +1,102 @@
+{
+  "uid" : "29073e36730d453c",
+  "name" : "Congratulations button working and all cards displayed or not",
+  "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsCard2sWorking",
+  "historyId" : "20b0b5e3049cf7592bf89a4b8d749811",
+  "time" : {
+    "start" : 1632819428785,
+    "stop" : 1632819432912,
+    "duration" : 4127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupTests",
+    "time" : {
+      "start" : 1632819408307,
+      "stop" : 1632819428778,
+      "duration" : 20471
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "clearTests",
+    "time" : {
+      "start" : 1632819432916,
+      "stop" : 1632819444157,
+      "duration" : 11241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyIfCongratulationsCard2sWorking"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_website_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.GiftCardsTab"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHAJIPG"
+  }, {
+    "name" : "thread",
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4787c34435fc51eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632818253244,
+        "stop" : 1632818253822,
+        "duration" : 578
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29073e36730d453c.json",
+  "parameterValues" : [ ]
+}

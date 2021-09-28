@@ -1,59 +1,59 @@
 {
-  "uid" : "746579ce77fbe992",
-  "name" : "demoTest2",
-  "fullName" : "Tests.DemoTest.demoTest2",
-  "historyId" : "624dba1beaf237fdd1dac3d8d34673a5",
+  "uid" : "948c1248560d4c8d",
+  "name" : "Test:Click On Google Earth Button",
+  "fullName" : "Tests.Home.verifyIfGoogleEarthButtonWorking",
+  "historyId" : "e465336bed058a6bb4de965cdde2bf22",
   "time" : {
-    "start" : 1632818223624,
-    "stop" : 1632818223629,
-    "duration" : 5
+    "start" : 1632820024808,
+    "stop" : 1632820028271,
+    "duration" : 3463
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setupx",
+    "name" : "setupTests",
     "time" : {
-      "start" : 1632818223615,
-      "stop" : 1632818223615,
-      "duration" : 0
+      "start" : 1632820009905,
+      "stop" : 1632820024803,
+      "duration" : 14898
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
-    "name" : "close",
+    "name" : "clearTests",
     "time" : {
-      "start" : 1632818223658,
-      "stop" : 1632818223659,
-      "duration" : 1
+      "start" : 1632820028274,
+      "stop" : 1632820030092,
+      "duration" : 1818
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "testClass",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "testMethod",
-    "value" : "demoTest2"
+    "value" : "verifyIfGoogleEarthButtonWorking"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -62,13 +62,13 @@
     "value" : "automation_website_pom"
   }, {
     "name" : "subSuite",
-    "value" : "Tests.DemoTest"
+    "value" : "Tests.Home"
   }, {
     "name" : "host",
     "value" : "DESKTOP-KHAJIPG"
   }, {
     "name" : "thread",
-    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,18 +85,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "c3f33ba02c8a2767",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632810908203,
-        "stop" : 1632810908232,
-        "duration" : 29
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "746579ce77fbe992.json",
+  "source" : "948c1248560d4c8d.json",
   "parameterValues" : [ ]
 }

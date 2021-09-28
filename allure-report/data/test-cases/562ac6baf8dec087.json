@@ -1,12 +1,12 @@
 {
-  "uid" : "833cae33e076c677",
+  "uid" : "562ac6baf8dec087",
   "name" : "Congratulations button working and all cards displayed or not",
-  "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsCard2sWorking",
-  "historyId" : "20b0b5e3049cf7592bf89a4b8d749811",
+  "fullName" : "Tests.GiftCardsTab.verifyIfCongratulationsCard1IsWorking",
+  "historyId" : "cec688b45535f8a0062238b3b19f51bc",
   "time" : {
-    "start" : 1632818253244,
-    "stop" : 1632818253822,
-    "duration" : 578
+    "start" : 1632819403871,
+    "stop" : 1632819406426,
+    "duration" : 2555
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,36 +14,36 @@
   "beforeStages" : [ {
     "name" : "setupTests",
     "time" : {
-      "start" : 1632818241251,
-      "stop" : 1632818253238,
-      "duration" : 11987
+      "start" : 1632819374296,
+      "stop" : 1632819403863,
+      "duration" : 29567
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "clearTests",
     "time" : {
-      "start" : 1632818253825,
-      "stop" : 1632818254527,
-      "duration" : 702
+      "start" : 1632819406430,
+      "stop" : 1632819408291,
+      "duration" : 1861
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "package",
@@ -53,7 +53,7 @@
     "value" : "Tests.GiftCardsTab"
   }, {
     "name" : "testMethod",
-    "value" : "verifyIfCongratulationsCard2sWorking"
+    "value" : "verifyIfCongratulationsCard1IsWorking"
   }, {
     "name" : "parentSuite",
     "value" : "All Test Suite"
@@ -68,7 +68,7 @@
     "value" : "DESKTOP-KHAJIPG"
   }, {
     "name" : "thread",
-    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+    "value" : "2720@DESKTOP-KHAJIPG.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,10 +85,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "4984656971179bc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632818240047,
+        "stop" : 1632818240576,
+        "duration" : 529
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "833cae33e076c677.json",
+  "source" : "562ac6baf8dec087.json",
   "parameterValues" : [ ]
 }

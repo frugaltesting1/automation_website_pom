@@ -1,0 +1,92 @@
+{
+  "uid" : "a0ac9415457c88e9",
+  "name" : "demoTest2",
+  "fullName" : "Tests.DemoTest.demoTest2",
+  "historyId" : "624dba1beaf237fdd1dac3d8d34673a5",
+  "time" : {
+    "start" : 1632818223624,
+    "stop" : 1632818223629,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupx",
+    "time" : {
+      "start" : 1632818223615,
+      "stop" : 1632818223615,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1632818223658,
+      "stop" : 1632818223659,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.DemoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.DemoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "demoTest2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_website_pom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.DemoTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHAJIPG"
+  }, {
+    "name" : "thread",
+    "value" : "1036@DESKTOP-KHAJIPG.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0ac9415457c88e9.json",
+  "parameterValues" : [ ]
+}
